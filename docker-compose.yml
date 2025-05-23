@@ -1,6 +1,6 @@
 services:
   open-webui:
-    image: ghcr.io/open-webui/open-webui:main
+    image: ghcr.io/open-webui/open-webui:git-0b5514f-ollama
     container_name: open-webui
     ports:
       - "3100:8080"
